@@ -1,0 +1,8 @@
+#set wallpaper
+feh --bg-scale ~/.config/openbox/harrys.jpg &
+# panel
+tint2 &
+# disable caps lock
+setxkbmap -option nocaps &
+
+pkill plank &
