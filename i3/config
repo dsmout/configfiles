@@ -45,7 +45,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym Control+$alt+t exec i3-sensible-terminal
 # set wallpaper
-exec feh --bg-scale ../Wallpapers/harrys.jpg
+exec feh --bg-scale ~/.config/i3/Wallpapers/harrys.jpg
 # parcellite start
 # exec "parcellite -n"
 # disable caps lock

@@ -1,3 +1,3 @@
 #!/bin/bash
-i3lock -i ../Wallpapers/harrys.png &
+i3lock -i ~/.config/i3/Wallpapers/harrys.png &
 systemctl suspend
