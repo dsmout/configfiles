@@ -43,7 +43,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec mate-terminal
-# bindsym Control+$alt+T exec mate-terminal
+bindsym Control+$alt+t exec mate-terminal
 # set wallpaper
 exec feh --bg-scale /home/dan/.config/openbox/harrys.jpg
 # parcellite start
