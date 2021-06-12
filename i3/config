@@ -45,13 +45,13 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym Control+$alt+t exec i3-sensible-terminal
 # set wallpaper
-exec feh --bg-scale /home/dan/.config/openbox/harrys.jpg
+exec feh --bg-scale /home/dan/Pictures/Wallpapers/harrys.jpg
 # parcellite start
 # exec "parcellite -n"
 # disable caps lock
 exec setxkbmap -option ctrl:nocaps
 # lock pc
-bindsym XF86Sleep exec ~/bin/myi3lock
+bindsym XF86Sleep exec ~/.config/i3/myi3lock
 # start clipboard
 bindsym Control+$alt+h exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
