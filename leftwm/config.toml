@@ -9,7 +9,7 @@ disable_current_tag_swap = false
 command = "Execute"
 value = "rofi -show run"
 modifier = ["modkey"]
-key = "p"
+key = "r"
 
 [[keybind]]
 command = "Execute"
@@ -21,7 +21,7 @@ key = "F4"
 [[keybind]]
 command = "Execute"
 value = "current-terminal"
-modifier = ["modkey", "Shift"]
+modifier = ["modkey"]
 key = "Return"
 
 [[keybind]]
@@ -68,7 +68,7 @@ key = "Down"
 
 [[keybind]]
 command = "MoveWindowTop"
-modifier = ["modkey"]
+modifier = ["modkey","Shift"]
 key = "Return"
 
 [[keybind]]

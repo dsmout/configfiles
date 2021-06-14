@@ -1,15 +1,15 @@
 [InternalPDFViewer]
 Embedded=true
-File=../../Documents/leftwm_docs/keybindings.pdf
+File=../../Jobs/progress.pdf
 
 [Session]
 Bookmarks=@Invalid()
-CurrentFile=../../Documents/leftwm_docs/keybindings.tex
-File0\Col=8
+CurrentFile=../../Jobs/progress.tex
+File0\Col=32
 File0\EditorGroup=0
-File0\FileName=../../Documents/leftwm_docs/keybindings.tex
-File0\FirstLine=0
+File0\FileName=../../Jobs/progress.tex
+File0\FirstLine=4
 File0\FoldedLines=
-File0\Line=6
+File0\Line=12
 FileVersion=1
 MasterFile=
