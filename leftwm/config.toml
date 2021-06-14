@@ -13,6 +13,13 @@ key = "p"
 
 [[keybind]]
 command = "Execute"
+value = "rofi -show window"
+# modifier = ["Control","Mod1"]
+modifier = []
+key = "F4"
+
+[[keybind]]
+command = "Execute"
 value = "mate-terminal"
 modifier = ["modkey", "Shift"]
 key = "Return"
