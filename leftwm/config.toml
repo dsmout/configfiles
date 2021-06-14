@@ -42,9 +42,9 @@ key = "x"
 
 [[keybind]]
 command = "Execute"
-value = "slock"
-modifier = ["modkey", "Control"]
-key = "l"
+value = "~/Git_Stuff/configfiles/leftwm/themes/basic_polybar/lock"
+modifier = []
+key = "XF86XK_Sleep"
 
 [[keybind]]
 command = "MoveToLastWorkspace"
