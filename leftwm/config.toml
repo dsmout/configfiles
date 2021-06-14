@@ -20,7 +20,7 @@ key = "F4"
 
 [[keybind]]
 command = "Execute"
-value = "mate-terminal"
+value = "current-terminal"
 modifier = ["modkey", "Shift"]
 key = "Return"
 

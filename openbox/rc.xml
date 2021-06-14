@@ -372,7 +372,7 @@ cases. -->
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>mate-terminal</command>
+        <command>current-terminal</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>terminal</name>
@@ -381,7 +381,7 @@ cases. -->
     </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
-        <command>mate-terminal</command>
+        <command>current-terminal</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>terminal</name>
