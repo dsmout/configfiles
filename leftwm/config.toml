@@ -9,7 +9,7 @@ disable_current_tag_swap = false
 command = "Execute"
 value = "rofi -show run"
 modifier = ["modkey"]
-key = "r"
+key = "p"
 
 [[keybind]]
 command = "Execute"
