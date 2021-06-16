@@ -37,4 +37,5 @@ do
   let index=index+1
 done
 
+setxkbmap -option ctrl:nocaps
 pkill plank
