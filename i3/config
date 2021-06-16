@@ -219,7 +219,7 @@ gaps outer 15
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders off
+smart_borders on
 
 # hide borders
 default_border pixel 3
@@ -266,5 +266,6 @@ mode "$mode_gaps_outer" {
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        position top
         status_command i3status
 }
