@@ -41,6 +41,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+
+# Custom Shortcuts
+
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
 # bindsym Control+$alt+t exec i3-sensible-terminal
@@ -56,8 +59,8 @@ bindsym XF86Sleep exec ~/.config/i3/myi3lock
 # start clipboard
 bindsym Control+$alt+h exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
-
-# Custom Shortcuts
+# start lxsession for dialogues
+exec "lxsession &"
 
 # show windows
 bindsym F4 exec "rofi -show window -show-icons"
