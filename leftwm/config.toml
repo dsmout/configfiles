@@ -263,5 +263,14 @@ value = "rofi -modi \"clipboard:greenclip print\" -show clipboard -run-command '
 modifier = ["Control","Mod1"]
 key = "h"
 
+[[keybind]]
+command = "Execute"
+value = "google-chrome-stable"
+modifier = ["modkey"]
+key = "g"
+
+
+
+
 
 

@@ -36,8 +36,8 @@ index=0
 for size in "${sizes[@]}"
 do
   echo $size $index
-  leftwm-state -w $index -t $SCRIPTPATH/template.liquid | lemonbar -g $size -F#FFFFFFFF -B#AA222222&
-  # i3status | lemonbar -g $size -F#FFFFFFFF -B#AA222222&
+  # leftwm-state -w $index -t $SCRIPTPATH/template.liquid | lemonbar -g $size -F#FFFFFFFF -B#AA222222
+  i3status | lemonbar -g $size -F#FFFFFFFF -B#AA222222
   let index=index+1
 done
 
