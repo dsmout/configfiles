@@ -268,9 +268,3 @@ command = "Execute"
 value = "google-chrome-stable"
 modifier = ["modkey"]
 key = "g"
-
-
-
-
-
-
