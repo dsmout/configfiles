@@ -257,11 +257,11 @@ value = "pactl set-sink-mute @DEFAULT_SINK@ toggle"
 modifier = []
 key = "XF86XK_AudioMute"
 
-[[keybind]]
-command = "Execute"
-value = "rofi -modi \"clipboard:greenclip print\" -show clipboard -run-command '{cmd}'"
-modifier = ["Control","Mod1"]
-key = "h"
+# [[keybind]]
+# command = "Execute"
+# value = "rofi -modi \"clipboard:greenclip print\" -show clipboard -run-command '{cmd}'"
+# modifier = ["Control","Mod1"]
+# key = "h"
 
 [[keybind]]
 command = "Execute"

@@ -41,3 +41,4 @@ setxkbmap -option ctrl:nocaps
 sleep 2 
 pkill plank
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+parcellite -n &
