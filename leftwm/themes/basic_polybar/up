@@ -38,6 +38,6 @@ do
 done
 
 setxkbmap -option ctrl:nocaps
-lxsession &
 sleep 2 
 pkill plank
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &

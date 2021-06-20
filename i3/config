@@ -60,7 +60,7 @@ bindsym XF86Sleep exec ~/.config/i3/myi3lock
 bindsym Control+$alt+h exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 # start lxsession for dialogues
-exec "lxsession &"
+exec "/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &"
 
 # show windows
 bindsym F4 exec "rofi -show window -show-icons"
