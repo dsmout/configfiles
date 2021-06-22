@@ -2,8 +2,9 @@ modkey = "Mod4"
 mousekey = "Mod1"
 workspaces = []
 tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
-disable_current_tag_swap = false
+# layouts = ["MainAndVertStack", "MainAndHorizontalStack", "MainAndDeck", "GridHorizontal", "EvenHorizontal", "EvenVertical", "Fibonacci", "CenterMain", "CenterMainBalanced", "Monocle", "RightWiderLeftStack", "LeftWiderRightStack"]
+layouts = ["MainAndVertStack", "Monocle"]
+disable_current_tag_swap = true
 
 [[keybind]]
 command = "Execute"
@@ -27,7 +28,7 @@ key = "Return"
 [[keybind]]
 command = "CloseWindow"
 modifier = ["modkey", "Shift"]
-key = "q"
+key = "cGGG"
 
 [[keybind]]
 command = "SoftReload"
@@ -42,9 +43,15 @@ key = "x"
 
 [[keybind]]
 command = "Execute"
-value = "~/Git_Stuff/configfiles/leftwm/themes/basic_polybar/lock"
-modifier = []
-key = "XF86XK_Sleep"
+value = "google-chrome-stable"
+modifier = ["modkey", "Shift"]
+key = "g"
+
+# [[keybind]]
+# command = "Execute"
+# value = "~/Git_Stuff/configfiles/leftwm/themes/basic_polybar/lock"
+# modifier = []
+# key = "XF86XK_Sleep"
 
 [[keybind]]
 command = "MoveToLastWorkspace"
