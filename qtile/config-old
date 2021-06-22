@@ -32,8 +32,8 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 mod = "mod4"
-# terminal = guess_terminal()
-terminal = "urxvt"
+terminal = guess_terminal()
+
 keys = [
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -80,8 +80,6 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(),
         desc="Spawn a command using a prompt widget"),
-    Key([mod], "p", lazy.spawn("dmenu_run") , desc="Run a prog"),
-
 ]
 
 groups = [Group(i) for i in "123456789"]
@@ -104,13 +102,12 @@ for i in groups:
 layouts = [
     layout.Columns(border_focus_stack='#d75f5f'),
     layout.Max(),
-    layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
-    layout.Matrix(),
-    layout.MonadTall(),
-	layout.MonadWide(),
+    # layout.Matrix(),
+    # layout.MonadTall(),
+    # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
     # layout.TreeTab(),
