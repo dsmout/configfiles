@@ -10,4 +10,4 @@ greenclip daemon &
 # Starting polkit for auth dialogs
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 # Disable Caps Lock
-setxkbmap -option caps:none
+setxkbmap -option caps:none &
