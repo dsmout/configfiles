@@ -28,7 +28,7 @@ key = "Return"
 [[keybind]]
 command = "CloseWindow"
 modifier = ["modkey", "Shift"]
-key = "cGGG"
+key = "c"
 
 [[keybind]]
 command = "SoftReload"
