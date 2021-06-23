@@ -77,7 +77,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # next track (Headphones)
 bindsym XF86AudioNext exec playerctl next
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+Shift+C kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run

@@ -37,12 +37,10 @@ def getTime():
     out = d.strftime("%a %d %b %y %H:%M:%S")
     return out
 
-
-
-
-
 def main():
     while True:
-        print(getIP(), getMem(), getVol() , getMute(), getTime())    
+        print(getIP(), getMem(), getVol() , getMute(), getTime())
+        sleep(5)
+
 if __name__ == "__main__":
     main()

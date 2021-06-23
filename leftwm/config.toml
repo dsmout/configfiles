@@ -81,12 +81,12 @@ key = "Return"
 [[keybind]]
 command = "FocusWindowUp"
 modifier = ["modkey"]
-key = "Up"
+key = "j"
 
 [[keybind]]
 command = "FocusWindowDown"
 modifier = ["modkey"]
-key = "Down"
+key = "k"
 
 [[keybind]]
 command = "NextLayout"
@@ -275,3 +275,19 @@ command = "Execute"
 value = "google-chrome-stable"
 modifier = ["modkey"]
 key = "g"
+
+[[keybind]]
+command = "IncreaseMainWidth"
+value = "5"
+modifier = ["modkey"]
+key = "h"
+
+[[keybind]]
+command = "DecreaseMainWidth"
+value = "5"
+modifier = ["modkey"]
+key = "l"
+
+
+
+
