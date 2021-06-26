@@ -38,9 +38,9 @@ def getTime():
     return out
 
 def main():
-    while True:
-        print(getIP(), getMem(), getVol() , getMute(), getTime())
-        sleep(5)
+    # while True:
+    print(getIP(), getMem(), getVol() , getMute(), getTime(),end="")
+        # sleep(5)
 
 if __name__ == "__main__":
     main()

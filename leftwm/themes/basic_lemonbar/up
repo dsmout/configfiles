@@ -16,8 +16,6 @@ if [ -x "$(command -v compton)" ]; then
 elif [ -x "$(command -v picom)" ]; then
   picom &> /dev/null & 
 fi
-# disable caps lock
-setxkbmap -option ctrl:nocaps
 
 #set the theme.toml config
 echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
@@ -35,7 +33,7 @@ sizes=( $(leftwm-state -q -n -t $SCRIPTPATH/sizes.liquid | sed -r '/^\s*$/d') )
 index=0
 for size in "${sizes[@]}"
 do
-  leftwm-state -w $index -t $SCRIPTPATH/template.liquid | 0
-  let index=index+1
+   leftwm-state -w $index -t $SCRIPTPATH/template.liquid | lemonbar -g $size -F#FFFFFFFF -B#AA222222&
+   let index=index+1
 done
 

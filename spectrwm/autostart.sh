@@ -7,6 +7,7 @@ feh --bg-scale ~/.config/leftwm/themes/basic_polybar/Dutch.jpg &
 parcellite -n &
 # greenclip daemon
 greenclip daemon &
+blueman-applet &
 # Starting polkit for auth dialogs
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 # Disable Caps Lock
