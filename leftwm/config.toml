@@ -281,13 +281,13 @@ key = "g"
 command = "IncreaseMainWidth"
 value = "5"
 modifier = ["modkey"]
-key = "h"
+key = "l"
 
 [[keybind]]
 command = "DecreaseMainWidth"
 value = "5"
 modifier = ["modkey"]
-key = "l"
+key = "h"
 
 
 
